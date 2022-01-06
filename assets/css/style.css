@@ -1,0 +1,139 @@
+.header img {
+  width: 1000px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.header {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+
+}
+
+* {
+  background-color: rgb(255, 255, 255);
+}
+
+
+.shoppingButton {
+  border: none;
+  float: right;
+  width: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: auto;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(236, 221, 221);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.container {
+  overflow: hidden;
+}
+
+.layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  display: none;
+  z-index: 1000;
+}
+
+
+.show {
+  display: block;
+}
+
+h4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+
+}
+
+h5 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.filter-button {
+  border: none
+}
+
+.unfiltered {
+  border: none
+}
+
+
+#placeorder {
+  border: none;
+  float: right;
+  width: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: auto;
+
+}
+
+.hidden {
+  display: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: coral;
+}
+
+.footer a:hover {
+  color: black;
+}
+
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer {
+  width: 95vw;
+}
+
+.addToCart {
+  width: 100px;
+
+
+
+}
