@@ -25,12 +25,12 @@ Vue.component('shopping-cart', {
         },
         
     },
-     
     
     
+    
 
 
     
 
-    template: `<div class="cart">shopping-cart</div>`,
+    template: `<div class="cart">shopping-cart </li></div>`,
 })

@@ -2,7 +2,7 @@
     /*background-color: rgb(175, 175, 175, 1);*/
     position: fixed;
     top: 85px;
-    height: 80%;
+    height: 90%;
     width: 300px;
     z-index: 1000;
     opacity: 0.99;
@@ -10,15 +10,16 @@
     float: right;
     display: none;
     font-size: 16px;
-    padding: 5px;
+    padding: 1px;
     color: rgb(0, 0, 0, 0.5);
     overflow: scroll;
 }
 
 .imageSmaller {
-    height: 90%;
     width: 200px;
 }
+
+
 
 
 /* item styling */
@@ -62,16 +63,7 @@
     background: url("https://designmodo.com/demo/shopping-cart/delete-icn.svg") no-repeat center;
 }
 
-.like-btn {
-    position: absolute;
-    top: 9px;
-    left: 15px;
-    background: url("https://designmodo.com/demo/shopping-cart/twitter-heart.png");
-    width: 60px;
-    height: 60px;
-    background-size: 2900%;
-    background-repeat: no-repeat;
-}
+
 
 .image {
     margin-right: 50px;

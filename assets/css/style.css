@@ -55,6 +55,16 @@
   overflow: hidden;
 }
 
+
+.img-fluid {
+  width: 70%;
+}
+
+.row {
+  width: 100%;
+}
+
+
 .layer {
   position: fixed;
   top: 0;
@@ -125,10 +135,12 @@ h5 {
 
 .footer ul {
   list-style-type: none;
+  
 }
 
 .footer {
   width: 95vw;
+  
 }
 
 .addToCart {
