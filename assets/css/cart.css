@@ -1,7 +1,7 @@
 .cart {
     /*background-color: rgb(175, 175, 175, 1);*/
     position: fixed;
-    top: 85px;
+    top: 50px;
     height: 90%;
     width: 300px;
     z-index: 1000;
@@ -13,7 +13,37 @@
     padding: 1px;
     color: rgb(0, 0, 0, 0.5);
     overflow: scroll;
+    text-align: center;
 }
+
+
+/* item styling */
+
+
+
+
+
+title {
+    top: 85px;
+    height: 3.75em;
+    border-bottom: 5px solid #E1E8EE;
+    padding: 1.25em 1.75em;
+    color: #5E6977;
+    font-size: 1.125em;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.item {
+    padding: 0.15em 0.15em;
+    height: 10.5em;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
 
 .imageSmaller {
     width: 200px;
@@ -21,25 +51,7 @@
 
 
 
-
-/* item styling */
-
-/*.title {
-    top: 85px;
-    height: 3.75em;
-    border-bottom: 1px solid #E1E8EE;
-    padding: 1.25em 1.75em;
-    color: #5E6977;
-    font-size: 1.125em;
-    font-weight: 400;
-}
-
-.item {
-    padding: 1.25em 1.75em;
-    height: 7.5em;
-    display: flex;
-}
-
+/*
 .item:nth-child(3) {
     border-top: 1px solid #E1E8EE;
     border-bottom: 1px solid #E1E8EE;
@@ -102,7 +114,7 @@
     -webkit-appearance: none;
     border: none;
     text-align: center;
-    width: 32px;
+    width: 20px;
     font-size: 1em;
     color: #43484D;
     font-weight: 300;
@@ -122,7 +134,7 @@ button[class*=btn] {
 }
 
 .plus-btn img {
-    margin-top: 2px;
+    margin-top: 6px;
 }
 
 button:focus,
@@ -137,6 +149,7 @@ input:focus {
     font-size: 1em;
     color: #43484D;
     font-weight: 300;
+    text-align: center;
 }
 
 /* media queries */

@@ -1,23 +1,33 @@
 .header img {
-  width: 1000px;
-
+  width: 40%;
+  position: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
+  z-index: 1;
 }
+
+
+@media screen and (max-width: 100%) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
 
 
 .header {
   background-color: rgb(255, 255, 255);
   margin: 0 auto;
 
+
 }
 
 * {
   background-color: rgb(255, 255, 255);
 }
-
 
 .shoppingButton {
   border: none;
@@ -29,12 +39,22 @@
   margin-top: auto;
 }
 
+
+
 .navbar {
   position: fixed;
   width: 100%;
   z-index: 1;
 }
 
+.card {
+  border: none
+}
+
+
+.card-body {
+  border: none;
+}
 
 .close {
   color: #aaa;
@@ -54,16 +74,6 @@
 .container {
   overflow: hidden;
 }
-
-
-.img-fluid {
-  width: 70%;
-}
-
-.row {
-  width: 100%;
-}
-
 
 .layer {
   position: fixed;
@@ -123,6 +133,81 @@ h5 {
   display: none;
 }
 
+
+.column {
+  flex: 50%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+  .grid {
+    width: 100%;
+  }
+}
+
+.zoom {
+
+  transition: transform .2s;
+  /* Animation */
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: auto;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+#wrapper {
+  width: 640px;
+  height: 640px;
+  border: none;
+  overflow: hidden;
+  position: centre;
+}
+
+#image {
+  background-image: url('/assets/images/martialarts.jpg');
+  background-size: 100%;
+  background-position: centre;
+  transition: all 1s ease;
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  position: centre;
+  left: 150px;
+  top: 0;
+}
+
+#wrapper:hover #image {
+  transform: scale(2);
+  -webkit-transform: scale(2);
+
+
+  top: 100px;
+
+}
+
+
+
+/*.footer {
+  height: 200px;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+*/
 .footer a {
   text-decoration: none;
   color: coral;
@@ -135,17 +220,10 @@ h5 {
 
 .footer ul {
   list-style-type: none;
-  
+
 }
 
 .footer {
   width: 95vw;
-  
-}
-
-.addToCart {
-  width: 100px;
-
-
 
 }
